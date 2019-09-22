@@ -1,5 +1,11 @@
-# Testando as coisas em Java
+# Junit4 in line command
 
+
+    # unix
+    javac -cp ".;libs/junit-4.12.jar" FooTest.java
+    java -cp ".:libs/junit-4.12.jar:libs/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore FooTest
+
+    # windows
     javac -cp ".;libs/junit-4.12.jar" FooTest.java
     java -cp ".;libs/junit-4.12.jar;libs/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore FooTest
 
